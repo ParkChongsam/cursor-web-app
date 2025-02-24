@@ -47,22 +47,20 @@ const EditorPreview = () => {
           {activeTab === 'chat' ? (
             <div className="space-y-4">
               <div className="bg-[#2D2D2D] p-4 rounded">
-                How do I implement a binary search tree in Python?
+                {"How do I implement a binary search tree in Python?"}
               </div>
               <div className="bg-[#3D3D3D] p-4 rounded">
-                Here's an example implementation of a binary search tree in Python:
+                {"Here's an example implementation of a binary search tree in Python:"}
 
-                ```python
-                class Node:
-                    def __init__(self, value):
-                        self.value = value
-                        self.left = None
-                        self.right = None
+                {`class Node:
+    def __init__(self, value):
+        self.value = value
+        self.left = None
+        self.right = None
 
-                class BinarySearchTree:
-                    def __init__(self):
-                        self.root = None
-                ```
+class BinarySearchTree:
+    def __init__(self):
+        self.root = None`}
               </div>
             </div>
           ) : (
